@@ -1,0 +1,16 @@
+#initiate python env
+source ~/forum-alert-env/bin/activate
+
+crontab -e
+
+cat ~/log.txt
+
+cat ~/snipe_hide_alert.py
+
+python ~/snipe_hide_alert.py
+
+tail -f /var/log/cron.log
+
+rm ~/snipe_hide_alert.py
+
+scp /Users/AlanXiao/Documents/AI\ Repo/Snipehide\ alert/snipe_hide_alert.py smby1985@34.122.231.171:/home/smby1985/snipe_hide_alert.py
