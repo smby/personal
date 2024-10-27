@@ -8,7 +8,7 @@ import config  # Import configuration file
 search_url = "https://www.snipershide.com/shooting/search/7199250/?q=amp+annealer&c[newer_than]=2024-10-01&c[title_only]=1&o=date"
 
 # Define the time window (in minutes) to consider posts as "new"
-TIME_WINDOW_MINUTES = 60
+TIME_WINDOW_MINUTES = 66
 
 def log_message(message):
     """Logs a message with a timestamp."""
