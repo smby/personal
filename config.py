@@ -12,6 +12,6 @@ TIME_WINDOW_MINUTES = 14400  # Example: 1 day
 SEARCH_LINKS = [
     {"title": "tikka", "url": "https://www.snipershide.com/shooting/search/7218891/?q=tikka+6.5&t=post&c[child_nodes]=1&c[nodes][0]=36&c[title_only]=1&o=date"},
     {"title": "scope", "url": "https://www.snipershide.com/shooting/search/7218893/?q=mark++5hd&t=post&c[child_nodes]=1&c[nodes][0]=36&c[title_only]=1&o=date"},
-    {"title": "scope", "url": "https://www.snipershide.com/shooting/search/7218894/?q=amp+annealer&t=post&c[child_nodes]=1&c[nodes][0]=36&c[title_only]=1&o=date"}
+    {"title": "annealer", "url": "https://www.snipershide.com/shooting/search/7218894/?q=amp+annealer&t=post&c[child_nodes]=1&c[nodes][0]=36&c[title_only]=1&o=date"}
     # Add more links as needed
-]
+] 
