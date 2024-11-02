@@ -1,4 +1,5 @@
 #initiate python env
+ssh smby1985@34.122.231.171
 source ~/forum-alert-env/bin/activate
 
 crontab -e
@@ -14,3 +15,12 @@ tail -f /var/log/cron.log
 rm ~/snipe_hide_alert.py
 
 scp /Users/AlanXiao/Documents/AI\ Repo/Snipehide\ alert/snipe_hide_alert.py smby1985@34.122.231.171:/home/smby1985/snipe_hide_alert.py
+
+
+
+# Git workflow(local)
+git status
+git add -A
+git commit -am "Commit message"
+
+ssh -T git@github.com
