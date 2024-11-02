@@ -22,5 +22,5 @@ scp /Users/AlanXiao/Documents/AI\ Repo/Snipehide\ alert/snipe_hide_alert.py smby
 git status
 git add -A
 git commit -am "Commit message"
-
-ssh -T git@github.com
+git clone git@github.com:smby/personal.git
+git pull origin main
